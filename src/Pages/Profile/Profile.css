@@ -1,0 +1,11 @@
+.myprofileheading{
+    text-align: center;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    width: 500px;
+}
+
+.myprofileh1{
+    font-weight: bold;
+    width: 500px;
+}

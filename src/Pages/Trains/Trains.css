@@ -1,0 +1,25 @@
+.trainheading{
+    background-color:chartreuse;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.trainheading1{
+    font-size: 3.5rem;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.addTrainButton {
+    margin-bottom: 50px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.trains {
+    background-color: grey;
+    height : 100%;
+    background-size: cover;
+    width: 100%;
+    position:relative;
+}

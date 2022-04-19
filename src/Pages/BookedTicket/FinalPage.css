@@ -1,0 +1,36 @@
+.successful {
+    color: green;
+}
+
+h3{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.reservationTicket {
+    width : 1550px;
+    height: 100%;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    border-width: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.ticketBooking {
+    font-family: Arial, Helvetica, sans-serif;
+    color:brown;
+}
+
+.finalHeading {
+    margin-left: 500px;
+}
+
+.strip1 {
+    height: 10px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.lastname {
+    margin-left: 500px;
+}

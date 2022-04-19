@@ -1,0 +1,57 @@
+.passengerCard {
+    width: 700px;
+    height: 50px;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    border-width: 5px;
+    margin-top: 30px;
+
+}
+
+.payButton {
+    margin-top: 50px;
+}
+
+.pdetailsHeading {
+    height: 50px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.mealBox {
+    margin-top: 50px;
+    
+}
+
+.cardInput {
+    width: 400px;
+    margin-left: 10px;
+}
+
+.cvvInput {
+    width: 100px;
+    
+}
+
+.dateInput {
+    width: 100px;
+}
+
+.slash {
+    padding-left: 0px;
+    
+}
+
+.yearInput {
+    padding-left: 0px ;
+}
+
+.thali {
+    background-image: url(../../Images/indian-thali-26440162.jpg);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size:contain;
+    background-position: center;
+}

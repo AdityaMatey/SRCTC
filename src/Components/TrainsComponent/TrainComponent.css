@@ -1,0 +1,25 @@
+.card-header{
+    font-weight: bold;
+    background-color: bisque;
+}
+
+.updateButton{
+    margin-top: 15px;
+    margin-left: 55px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.deleteButton {
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-right: 15px;
+    width: 150px;
+}
+
+.bookButton {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 150px;
+}
