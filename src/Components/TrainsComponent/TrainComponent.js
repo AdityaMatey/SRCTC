@@ -35,6 +35,11 @@ const TrainComponent = (props) => {
         })
     }
 
+    const editTrain = () =>{
+        sessionStorage['trainNumber'] = train.trainNumber
+        navigate('/editTrain')
+    }
+
     return (
         <div>
 
@@ -75,7 +80,7 @@ const TrainComponent = (props) => {
                             </div>
                             <div className="col">
                             { role == "admin" && (
-                            <div className="row updateButton"> <button className="btn btn-warning float-end">Edit</button></div>    
+                            <div onClick={editTrain} className="row updateButton"> <button className="btn btn-warning float-end">Edit</button></div>    
                             )}
                             </div>
                             <div className="col">

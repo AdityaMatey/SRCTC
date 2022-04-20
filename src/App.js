@@ -25,6 +25,7 @@ import FetchByPnr from './Pages/FetchPassenger/FetchByPnr';
 import TicketsList from './Pages/AdminDetails/TicketsList';
 import CancellationList from './Pages/AdminDetails/CancellationList';
 import PaymentList from './Pages/AdminDetails/PaymentList';
+import EditTrain from './Pages/UpdateTrain/EditTrain';
 
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path = '/ticketsList' element = {<TicketsList />}/>
           <Route path = '/cancellationHistory' element = {<CancellationList />}/>
           <Route path = '/paymentHistory' element = {<PaymentList />}/>
+          <Route path = '/editTrain' element = {<EditTrain />}/>
 
         </Routes>
       </BrowserRouter>

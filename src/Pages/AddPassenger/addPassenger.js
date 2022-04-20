@@ -55,7 +55,7 @@ const AddPassenger = () => {
                 userId
             }
 
-            const url = 'http://localhost:7070/passenger/add'
+            const url = `${URL}/passenger/add`
             axios.post(url, body).then((response)=>{
 
             })
