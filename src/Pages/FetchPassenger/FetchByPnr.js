@@ -5,6 +5,7 @@ import Header from "../../Components/HeaderComponent/Header"
 import PassengerDetailsComponent from "../../Components/PassengerDetailsComponent/PassengerDetailsComponent"
 import PassengerWithSeatDetails from "../../Components/PassengerDetailsComponent/PassengerWithSeatDetails"
 import './FetchByPnr.css'
+import { URL } from "../../config"
 
 
 const FetchByPnr = () => {
@@ -27,7 +28,7 @@ const FetchByPnr = () => {
             setGetStatusCheck(0)
         }
         console.log(getStatusCheck)
-        const url = `http://localhost:7070/passenger/passengersByPNR/${pnr}`
+        const url = `${URL}/passenger/passengersByPNR/${pnr}`
         axios.get(url).then((response)=>{
             console.log(pnr)
             const result = response.data
